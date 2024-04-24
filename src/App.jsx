@@ -1,5 +1,7 @@
 
 import './App.css'
+import Evento from './components/event'
+import Form from './components/form'
 import HelloWord from './components/helloWord'
 import SayMyName from './components/sayMyName'
 import Pessoa from './components/pessoa'
@@ -11,8 +13,10 @@ function App() {
 
   return (
     <div className='App'>
-      <HelloWord/>
-      <Frase/>
+      <Evento numero="1"/>
+      <Evento numero="2"/>
+      <Form />
+      {/* <Frase/>
       <SayMyName nome="Douglas"/>
       <SayMyName nome="Roberto"/>
       <SayMyName nome={nome}/>
@@ -23,7 +27,7 @@ function App() {
       foto="https://via.placeholder.com/150"
       />
 
-      <List/>
+      <List/> */}
       
     </div>
     
